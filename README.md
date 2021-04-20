@@ -36,7 +36,7 @@ Means:
 
 To complete this test:
 
-- Fork [this repository](https://github.com/skooter500/OOP-Test-2021)
+- Fork this repository
 - Clone your fork
 - Write a class called Note that has two private fields for note (a char) and duration (an int)
 - Write a constructor and appropriate toString method on the class Note
@@ -91,3 +91,5 @@ Marking Scheme:
 | Drawing the notes | 30 marks |
 | Drawing the highlighted note in red | 10 marks
 | Use of git | 10 marks |
+
+[Submit the URL to your git repo here](https://docs.google.com/forms/d/e/1FAIpQLSegXpp_w-VQ91H0pAdPl5xjX4F6hmwWOl2qud4ea7np5uciiw/viewform)
