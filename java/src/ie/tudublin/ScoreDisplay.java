@@ -34,7 +34,12 @@ public class ScoreDisplay extends PApplet
 
 	public void drawStaves()
 	{
-		line(200, 300, 100, 50);
+		strokeWeight(3);
+		line(100, 200, 900, 200);
+		line(100, 225, 900, 225);
+		line(100, 250, 900, 250);
+		line(100, 275, 900, 275);
+		line(100, 300, 900, 300);
 	}
 	
 	public void settings()
@@ -51,13 +56,12 @@ public class ScoreDisplay extends PApplet
 	{
 		loadScore();
 		printScores();
-		drawStaves();
 	}
 
 	public void draw()
 	{
 		background(255);
-		
+		drawStaves();
 	}
 
 	void drawNotes()
