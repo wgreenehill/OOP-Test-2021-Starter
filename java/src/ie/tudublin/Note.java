@@ -8,11 +8,19 @@ public class Note
     public Note(char note, int duration)
     {
         this.note = note;
+        this.setDuration(duration);
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
         this.duration = duration;
     }
 
     public String toString()
     {
-        return note + " " + duration;
+        return note + " " + getDuration();
     }
 }
