@@ -17,9 +17,24 @@ public class ScoreDisplay extends PApplet
 	{
 		for(int i = 0; i < score.length(); i ++)
 		{
-			Note iNote = new Note(score.charAt(i), 1);
-			NotesList.add(iNote);
+			Note note = new Note(score.charAt(i), 1);
+			NotesList.add(note);
 		}
+	}
+
+	public void printScores()
+	{
+		String noteType = "Quaver";
+
+		for(Note note : NotesList)
+		{
+			System.out.println(note.toString() + " " + noteType);
+		}
+	}
+
+	public void drawStaves()
+	{
+		line(200, 300, 100, 50);
 	}
 	
 	public void settings()
@@ -35,6 +50,8 @@ public class ScoreDisplay extends PApplet
 	public void setup() 
 	{
 		loadScore();
+		printScores();
+		drawStaves();
 	}
 
 	public void draw()
@@ -45,5 +62,6 @@ public class ScoreDisplay extends PApplet
 
 	void drawNotes()
 	{
+
 	}
 }
