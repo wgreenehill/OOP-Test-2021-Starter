@@ -99,108 +99,104 @@ public class ScoreDisplay extends PApplet
 		int xLocation = 75;
 		for(int i = 0; i < NotesList.size(); i ++)
 		{
+			fill(0);
+			if(mouseX > xLocation - 25 && mouseX < xLocation + 25)
+			{
+				fill(255, 0, 0);
+				stroke(255, 0, 0);
+			}
+			else
+			{
+				fill(0);
+				stroke(0);
+			}
+
 			switch(NotesList.get(i).toString())
 			{
 				case "D 1":
 					ellipse(xLocation, 313, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 313, xLocation + 10, 253);
 					text("D", xLocation, 125);				
 					break;
 				case "E 1":
 					ellipse(xLocation, 300, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 300, xLocation + 10, 240);
 					text("E", xLocation, 125);			
 					break;
 				case "F 1":
 					ellipse(xLocation, 288, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 288, xLocation + 10, 228);
 					text("F", xLocation, 125);	
 					break;
 				case "G 1":
 					ellipse(xLocation, 275, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 275, xLocation + 10, 215);
 					text("G", xLocation, 125);	
 					break;
 				case "A 1":
 					ellipse(xLocation, 263, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 263, xLocation + 10, 203);
 					text("A", xLocation, 125);	
 					break;
 				case "B 1":
 					ellipse(xLocation, 250, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 250, xLocation + 10, 190);
 					text("B", xLocation, 125);	
 					break;
 				case "c 1":
 					ellipse(xLocation, 238, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 238, xLocation + 10, 178);
 					text("c", xLocation, 125);	
 					break;
 				case "d 1":
 					ellipse(xLocation, 225, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 225, xLocation + 10, 165);
 					text("d", xLocation, 125);	
 					break;
 				case "D 2":
 					ellipse(xLocation, 313, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 313, xLocation + 10, 253);	
 					line(xLocation + 10, 253, xLocation + 25, 268);
 					text("D", xLocation, 125);			
 					break;
 				case "E 2":
 					ellipse(xLocation, 300, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 300, xLocation + 10, 240);
 					line(xLocation + 10, 240, xLocation + 25, 255);		
 					text("E", xLocation, 125);	
 					break;
 				case "F 2":
 					ellipse(xLocation, 288, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 288, xLocation + 10, 228);
 					line(xLocation + 10, 228, xLocation + 25, 243);
 					text("F", xLocation, 125);	
 					break;
 				case "G 2":
 					ellipse(xLocation, 275, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 275, xLocation + 10, 215);
 					line(xLocation + 10, 215, xLocation + 25, 230);
 					text("G", xLocation, 125);	
 					break;
 				case "A 2":
 					ellipse(xLocation, 263, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 263, xLocation + 10, 203);
 					line(xLocation + 10, 203, xLocation + 25, 218);
 					text("A", xLocation, 125);	
 					break;
 				case "B 2":
 					ellipse(xLocation, 250, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 250, xLocation + 10, 190);
 					line(xLocation + 10, 190, xLocation + 25, 205);
 					text("B", xLocation, 125);	
 					break;
 				case "c 2":
 					ellipse(xLocation, 238, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 238, xLocation + 10, 178);
 					line(xLocation + 10, 178, xLocation + 25, 193);
 					text("c", xLocation, 125);	
 					break;
 				case "d 2":
 					ellipse(xLocation, 225, ellDiameter, ellDiameter);
-					fill(0, 0, 0);
 					line(xLocation + 10, 225, xLocation + 10, 165);
 					line(xLocation + 10, 165, xLocation + 25, 180);
 					text("d", xLocation, 125);	
