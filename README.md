@@ -92,4 +92,6 @@ Marking Scheme:
 | Drawing the highlighted note in red | 10 marks
 | Use of git | 10 marks |
 
-[Submit the URL to your git repo here](https://docs.google.com/forms/d/e/1FAIpQLSegXpp_w-VQ91H0pAdPl5xjX4F6hmwWOl2qud4ea7np5uciiw/viewform)
+*For a bonus 10 marks, have your program play back the music score*
+
+[Submit the URL to your git repo here befor 10pm](https://docs.google.com/forms/d/e/1FAIpQLSegXpp_w-VQ91H0pAdPl5xjX4F6hmwWOl2qud4ea7np5uciiw/viewform)
